@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>サンプルその5</dc:title>
+        <dc:creator opf:role="aut">高橋征義</dc:creator>
+        <dc:publisher>&#36948;&#20154;&#20986;&#29256;&#20250;</dc:publisher>
+        <dc:subject>EPUB</dc:subject>
+        <dc:subject>ebook</dc:subject>
+        <dc:subject>HOWTO</dc:subject>
+        <dc:description>EPUBの作り方を、実際に作りながら説明する。</dc:description>
+        <dc:date opf:event="publication">2010-04-16</dc:date>
+        <dc:identifier id="BookID" opf:scheme="URL">http://example.com/epub/sample/sample5.epub</dc:identifier>
+        <dc:language>ja</dc:language>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="c001" href="text/content001.xhtml" media-type="application/xhtml+xml"/>
+        <item id="c002" href="text/content002.xhtml" media-type="application/xhtml+xml"/>
+        <item id="c002b" href="text/content002b.xhtml" media-type="application/xhtml+xml"/>
+        <item id="c003" href="text/content003.xhtml" media-type="application/xhtml+xml"/>
+        <item id="c004" href="text/content004.xhtml" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="c001"/>
+        <itemref idref="c002"/>
+        <itemref idref="c002b" />
+        <itemref idref="c003"/>
+        <itemref idref="c004"/>
+    </spine>
+</package>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>サンプルその2</dc:title>
+        <dc:creator opf:role="aut">高橋征義(達人出版会)</dc:creator>
+        <dc:language>ja</dc:language>
+        <dc:identifier id="BookID" opf:scheme="URL">http://example.com/epub/sample/sample2.epub</dc:identifier>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="c001" href="text/content001.xhtml" media-type="application/xhtml+xml"/>
+        <item id="c002" href="text/content002.xhtml" media-type="application/xhtml+xml"/>
+        <item id="c002b" href="text/content002b.xhtml" media-type="application/xhtml+xml"/>
+        <item id="c003" href="text/content003.xhtml" media-type="application/xhtml+xml"/>
+        <item id="c004" href="text/content004.xhtml" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="c001"/>
+        <itemref idref="c002"/>
+        <itemref idref="c002b" />
+        <itemref idref="c003"/>
+        <itemref idref="c004"/>
+    </spine>
+</package>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>サンプル001</dc:title>
+        <dc:creator opf:role="aut">高橋征義(達人出版会)</dc:creator>
+        <dc:language>ja</dc:language>
+        <dc:identifier id="BookID" opf:scheme="URL">http://example.com/epub/sample/sample1.epub</dc:identifier>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="content001.xhtml" href="text/content001.xhtml" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="content001.xhtml"/>
+    </spine>
+    <guide>
+        <reference type="cover" title="Cover Page" href="text/content001.xhtml"/>
+    </guide>
+</package>
