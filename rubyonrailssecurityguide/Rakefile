@@ -1,0 +1,22 @@
+require 'rake/clean'
+
+## EPUBNAME = "sample"  ## default name
+
+if !defined?(EPUBNAME)
+  EPUBNAME = File.basename(Dir.pwd)  ## use base directory's name as epub file
+end
+
+CLEAN.include("*.zip", "*.epub")
+
+task :default => [:create]
+
+desc "create EPUB file"
+task :create do
+  files = Dir.glob("*.epub")
+  rm files if files.size > 0
+
+  sh "zip -q0X #{EPUBNAME}.zip mimetype"
+  sh "zip -qXr9D #{EPUBNAME}.zip * -x mimetype -x Rakefile"
+  mv EPUBNAME+".zip", EPUBNAME+".epub"
+end
+

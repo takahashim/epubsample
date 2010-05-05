@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Ruby On Rails Security Guide</dc:title>
+        <dc:creator opf:role="aut">Heiko Webers</dc:creator>
+        <dc:publisher>Rails Guide</dc:publisher>
+        <dc:subject>ruby</dc:subject>
+        <dc:subject>ruby on rails</dc:subject>
+        <dc:subject>security</dc:subject>
+        <dc:description>This manual describes common security problems in web applications and how to avoid them with Rails.</dc:description>
+        <dc:date opf:event="publication">2008-11-01</dc:date>
+        <dc:identifier id="BookID" opf:scheme="URL">http://example.com/epub/sample/railssecurityguide.epub</dc:identifier>
+        <dc:language>ja</dc:language>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="security" href="security.html" media-type="application/xhtml+xml"/>
+        <item id="css1" href="security_files/main.css" media-type="text/css"/>
+        <item id="css2" href="security_files/reset.css" media-type="text/css"/>
+        <item id="css3" href="security_files/style.css" media-type="text/css"/>
+        <item id="css4" href="security_files/syntax.css" media-type="text/css"/>
+        <item id="css5" href="security_files/print.css" media-type="text/css"/>
+	<item id="img1" href="images/belongs_to.png" media-type="image/png"/>
+	<item id="img2" href="images/book_icon.gif" media-type="image/gif"/>
+	<item id="img3" href="images/bullet.gif" media-type="image/gif"/>
+	<item id="img4" href="images/challenge.png" media-type="image/png"/>
+	<item id="img5" href="images/chapters_icon.gif" media-type="image/gif"/>
+	<item id="img6" href="images/check_bullet.gif" media-type="image/gif"/>
+	<item id="img7" href="images/credits_pic_blank.gif" media-type="image/gif"/>
+	<item id="img8" href="images/csrf.png" media-type="image/png"/>
+	<item id="img9" href="images/customized_error_messages.png" media-type="image/png"/>
+	<item id="img10" href="images/edge_badge.png" media-type="image/png"/>
+	<item id="img11" href="images/error_messages.png" media-type="image/png"/>
+	<item id="img12" href="images/feature_tile.gif" media-type="image/gif"/>
+	<item id="img13" href="images/footer_tile.gif" media-type="image/gif"/>
+	<item id="img14" href="images/fxn.png" media-type="image/png"/>
+	<item id="img15" href="images/grey_bullet.gif" media-type="image/gif"/>
+	<item id="img16" href="images/habtm.png" media-type="image/png"/>
+	<item id="img17" href="images/has_many.png" media-type="image/png"/>
+	<item id="img18" href="images/has_many_through.png" media-type="image/png"/>
+	<item id="img19" href="images/has_one.png" media-type="image/png"/>
+	<item id="img20" href="images/has_one_through.png" media-type="image/png"/>
+	<item id="img21" href="images/header_backdrop.png" media-type="image/png"/>
+	<item id="img22" href="images/header_tile.gif" media-type="image/gif"/>
+	<item id="img23" href="images/jaimeiniesta.jpg" media-type="image/jpeg"/>
+	<item id="img24" href="images/nav_arrow.gif" media-type="image/gif"/>
+	<item id="img25" href="images/polymorphic.png" media-type="image/png"/>
+	<item id="img26" href="images/posts_index.png" media-type="image/png"/>
+	<item id="img27" href="images/rails_guides_logo.gif" media-type="image/gif"/>
+	<item id="img28" href="images/rails_logo_remix.gif" media-type="image/gif"/>
+	<item id="img29" href="images/rails_welcome.png" media-type="image/png"/>
+	<item id="img30" href="images/session_fixation.png" media-type="image/png"/>
+	<item id="img31" href="images/tab_grey.gif" media-type="image/gif"/>
+	<item id="img32" href="images/tab_info.gif" media-type="image/gif"/>
+	<item id="img33" href="images/tab_note.gif" media-type="image/gif"/>
+	<item id="img34" href="images/tab_red.gif" media-type="image/gif"/>
+	<item id="img35" href="images/tab_yellow.gif" media-type="image/gif"/>
+	<item id="img36" href="images/tab_yellow.png" media-type="image/png"/>
+	<item id="img37" href="images/validation_error_messages.png" media-type="image/png"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="security"/>
+    </spine>
+</package>

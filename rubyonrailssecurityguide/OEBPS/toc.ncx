@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="ja">
+    <head>
+        <meta name="dtb:uid"
+              content="http://example.com/epub/sample/railssecurityguide.epub"/>
+        <meta name="dtb:depth" content="1"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    <docTitle>
+        <text>Rails Security Guide</text>
+    </docTitle>
+    <navMap>
+        <navPoint id="navPoint-0" playOrder="1">
+            <navLabel>
+                <text>Ruby On Rails Security Guide</text>
+            </navLabel>
+            <content src="security.html#feature"/>
+        </navPoint>
+        <navPoint id="navPoint-1" playOrder="2">
+            <navLabel>
+                <text>1 Introduction</text>
+            </navLabel>
+            <content src="security.html#introduction"/>
+        </navPoint>
+        <navPoint id="navPoint-2" playOrder="3">
+            <navLabel>
+                <text>2 Sessions</text>
+            </navLabel>
+            <content src="security.html#sessions"/>
+        </navPoint>
+        <navPoint id="navPoint-3" playOrder="4">
+            <navLabel>
+                <text>3 Cross-Site Request Forgery (CSRF)</text>
+            </navLabel>
+            <content src="security.html#cross-site-request-forgery-csrf"/>
+        </navPoint>
+
+        <navPoint id="navPoint-4" playOrder="5">
+            <navLabel>
+                <text>4 Redirection and Files</text>
+            </navLabel>
+            <content src="security.html#redirection-and-files"/>
+        </navPoint>
+
+        <navPoint id="navPoint-5" playOrder="6">
+            <navLabel>
+                <text>5 Intranet and Admin Security</text>
+            </navLabel>
+            <content src="security.html#intranet-and-admin-security"/>
+        </navPoint>
+
+        <navPoint id="navPoint-6" playOrder="7">
+            <navLabel>
+                <text>6 Mass Assignment</text>
+            </navLabel>
+            <content src="security.html#mass-assignment"/>
+        </navPoint>
+
+        <navPoint id="navPoint-7" playOrder="8">
+            <navLabel>
+                <text>7 User Management</text>
+            </navLabel>
+            <content src="security.html#user-management"/>
+        </navPoint>
+
+        <navPoint id="navPoint-8" playOrder="9">
+            <navLabel>
+                <text>8 Injection</text>
+            </navLabel>
+            <content src="security.html#injection"/>
+        </navPoint>
+
+        <navPoint id="navPoint-9" playOrder="10">
+            <navLabel>
+                <text>9 Additional Resources</text>
+            </navLabel>
+            <content src="security.html#additional-resources"/>
+        </navPoint>
+
+        <navPoint id="navPoint-10" playOrder="11">
+            <navLabel>
+                <text>10 Changelog</text>
+            </navLabel>
+            <content src="security.html#changelog"/>
+        </navPoint>
+
+    </navMap>
+</ncx>
